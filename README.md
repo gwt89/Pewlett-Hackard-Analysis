@@ -1,6 +1,10 @@
 # Pewlett-Hackard-Analysis
 ## Overview Of The Analysis
 The purpose of this analysis is to determine the number of retiring employees per title, and identify employees who are eligible to paticipate in a mentorship program. I’ll then write a report that summarizes my analysis and helps prepare Bobby’s manager for the “silver tsunami” as many current employees reach retirement age.
+## Resources
+Data Source: Employee_Database_Challenge.sql
+Data Tools: PostgreSQL, pgAdmin 4 v6.8
+Software: pgAdmin 4 v6.8, Visual Studio Code v1.69
 ## Results
 First I wrote code to create a retirement_titles table. To create the table I retrieved the emp_no, first_Name, and last_name columns from the the Employees table. I then retrieved the title, from_date, and to_date columns from the Titles table. I created a new table using the INTO clause. I then filtered the data on the birth_date column to retrieve employees who were born between 1952 and 1955.
 
